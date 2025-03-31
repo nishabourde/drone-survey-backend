@@ -7,7 +7,6 @@ from routes.reports import reports_bp
 app = Flask(__name__)
 CORS(app)  
 
-# Register blueprints
 app.register_blueprint(missions_bp)
 app.register_blueprint(fleet_bp)
 app.register_blueprint(reports_bp)
